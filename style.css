@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(./bg-intro-desktop.png);
+  background-image: url(./images_and_icons/bg-intro-desktop.png);
   background-color: hsl(0, 100%, 74%);
 }
 
@@ -100,7 +100,7 @@ input:focus {
 }
 
 input:focus:invalid {
-  background: url(./icon-error.svg) no-repeat 95% 50%;
+  background: url(./images_and_icons/icon-error.svg) no-repeat 95% 50%;
   background-size: 25px;
   border: 2px solid rgb(219, 15, 15);
   transition: border 10ms;
@@ -136,7 +136,7 @@ input:focus:invalid~.error::after {
 
 @media screen and (max-width: 450px) {
   body {
-    background-image: url(./bg-intro-mobile.png);
+    background-image: url(./images_and_icons/bg-intro-mobile.png);
     background-color: hsl(0, 100%, 74%);
   }
   main > div {
